@@ -32,14 +32,15 @@ const config: Config = {
           700: '#bd4508',
           800: '#97370e',
           900: '#7a2e0f',
-        }
+        },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
+        inter: ['Inter', 'system-ui', 'sans-serif'],
+        playfair: ['Playfair Display', 'serif'],
       },
     },
   },
   plugins: [],
 }
+
 export default config

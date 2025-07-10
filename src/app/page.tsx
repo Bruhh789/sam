@@ -8,13 +8,13 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 to-accent-50">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="font-serif text-5xl md:text-7xl font-bold text-primary-900 mb-6">
+          <h1 className="font-playfair text-5xl md:text-7xl font-bold text-primary-900 mb-6">
             Samson Mitiku
           </h1>
-          <p className="text-xl md:text-2xl text-primary-700 mb-4">
+          <p className="text-xl md:text-2xl font-inter text-primary-700 mb-4">
             Architect & Interior Designer
           </p>
-          <p className="text-lg text-primary-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg font-inter text-primary-600 mb-8 max-w-2xl mx-auto">
             Creating innovative spaces that blend functionality with aesthetic excellence. 
             Transforming visions into reality through thoughtful design and meticulous attention to detail.
           </p>
@@ -39,10 +39,10 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-4xl font-bold text-primary-900 mb-4">
+            <h2 className="font-playfair text-4xl font-bold text-primary-900 mb-4">
               What I Do
             </h2>
-            <p className="text-lg text-primary-600 max-w-2xl mx-auto">
+            <p className="text-lg font-inter text-primary-600 max-w-2xl mx-auto">
               Specializing in architectural design and interior solutions that create 
               meaningful spaces for living, working, and inspiring.
             </p>
@@ -56,8 +56,8 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-primary-900 mb-4">Architectural Design</h3>
-              <p className="text-primary-600">
+              <h3 className="text-xl font-inter font-semibold text-primary-900 mb-4">Architectural Design</h3>
+              <p className="font-inter text-primary-600">
                 Comprehensive architectural solutions from concept to completion, 
                 including residential, commercial, and institutional projects.
               </p>
@@ -70,8 +70,8 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-primary-900 mb-4">Interior Design</h3>
-              <p className="text-primary-600">
+              <h3 className="text-xl font-inter font-semibold text-primary-900 mb-4">Interior Design</h3>
+              <p className="font-inter text-primary-600">
                 Thoughtful interior spaces that reflect your personality while 
                 maximizing functionality and creating harmonious environments.
               </p>
@@ -84,8 +84,8 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-primary-900 mb-4">Design Consultation</h3>
-              <p className="text-primary-600">
+              <h3 className="text-xl font-inter font-semibold text-primary-900 mb-4">Design Consultation</h3>
+              <p className="font-inter text-primary-600">
                 Expert guidance and consultation services to help you make informed 
                 decisions about your space and design investments.
               </p>
@@ -98,10 +98,10 @@ export default function Home() {
       <section className="py-20 bg-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-4xl font-bold text-primary-900 mb-4">
+            <h2 className="font-playfair text-4xl font-bold text-primary-900 mb-4">
               Featured Work
             </h2>
-            <p className="text-lg text-primary-600">
+            <p className="text-lg font-inter text-primary-600">
               A glimpse into some of my recent projects
             </p>
           </div>
@@ -112,10 +112,10 @@ export default function Home() {
               <div key={i} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <div className="h-64 bg-gradient-to-br from-primary-200 to-accent-200"></div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-primary-900 mb-2">
+                  <h3 className="text-xl font-inter font-semibold text-primary-900 mb-2">
                     Project {i}
                   </h3>
-                  <p className="text-primary-600 mb-4">
+                  <p className="font-inter text-primary-600 mb-4">
                     A beautiful example of modern design principles applied to create 
                     functional and inspiring spaces.
                   </p>
